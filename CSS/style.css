@@ -205,6 +205,8 @@ h4 {
     height: 120px;
     margin-left: 35px;
     display: flex;
+    align-items: center;
+    opacity: 0.7;
 }
 
 .social-links {
@@ -224,4 +226,9 @@ h4 {
     background-color: #81b3d2;
     text-align: center;
     align-items: center;
+}
+
+.copyright {
+    display: flex;
+    margin-left: 400px;
 }
