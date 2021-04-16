@@ -1,0 +1,54 @@
+body {
+    margin: 35px;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 40px;
+    width: 1200px;
+    height: 56px;
+    background-color: white;
+    position: absolute;
+}
+
+.left-navigation, .right-navigation {
+    display: flex;
+    padding-left: 0;
+    margin-right: 0;
+    align-items: center;
+    list-style: none;
+}
+
+.item-left-navigation, .item-right-navigation {
+    width: 234px;
+    text-align: center;
+    
+}
+
+.link-navigation:hover {
+    color: #81b3d2;
+}
+
+.linl-naviigation:focus {
+    color: #CACACA;
+}
+.link-navigation {
+    text-decoration: none;
+}
+
+.link-name {
+    text-transform: lowercase; 
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 52px;
+    margin-right: 52px;
+}
