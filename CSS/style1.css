@@ -1,5 +1,5 @@
 body {
-    margin: 35px;
+    margin-left: 35px;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
@@ -36,7 +36,7 @@ header {
     color: #81b3d2;
 }
 
-.linl-naviigation:focus {
+.linl-naviigation:active {
     color: #CACACA;
 }
 .link-navigation {
@@ -48,7 +48,85 @@ header {
     font-weight: bold;
 }
 
+.link-name {
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
 .logo {
     margin-left: 52px;
     margin-right: 52px;
+}
+
+.find-form {
+    display: flex;
+    margin-left: 75px;
+    position: relative;
+    bottom: 400px;
+}
+
+
+.background {
+    width: 1200px;
+    height: 562px;
+    position: relative;
+    Z-index: -1;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.home-form {
+    display: inline-block;
+    padding-left: 74px;
+}
+
+.checkbox {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infrastructure, .home {
+    display: flex;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.price {
+    display: flex;
+    padding-left: 74px;
+}
+
+.hotels {
+    display: flex;
+}
+
+.block {
+    width: 318px;
+    height: 36px;
+    border: 2px solid white;
 }

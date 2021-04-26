@@ -47,43 +47,108 @@
     </header>
 
     <main>
+
         <div class="background">
-            <img src="img/background.jpg" width="1200px" height=<562px" alt="background">
+            <img src="img/background.jpg" width="1200px" alt="background">
         </div>
-        <section>
-            <form>
-                <div class="infractructue-form">
-                    <p>Информация</p>
-                    <label class="infrastructure">Бассейн
-                        <input type="checkbox">
-                    </label>
-                    <label class="infrastructure">Парковка
-                        <input type="checkbox">
-                    </label>
-                    <label class="infrastructure">wi-fi
-                        <input type="checkbox">
-                    </label>
+
+        <form action="#" class="find-form">
+
+            <div class="infractructue-form">
+                <h2>Инфроструктура</h2>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox">Бассейн</label>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox">Парковка</label>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox">wi-fi</label>
+            </div>
+
+            <div class="home-form">
+                <h2>Тип жилья</h2>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox">Гостиница</label>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox">Мотель</label>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox">Апартаменты</label>
+            </div>
+
+            <div class="price">
+                <h2>Стоимость в сутки</h2>
+                <div class="container">
+                    <p></p>
                 </div>
-                <div class="home-form">
-                    <p>Фото и видео</p>
-                    <label class="home">Гостиница
-                        <input type="checkbox">
-                    </label>
-                    <label class="home">Мотель
-                        <input type="checkbox">
-                    </label>
-                    <label class="home">Апартаменты
-                        <input type="checkbox">
-                    </label>
+                <div class="block">
+                    <p>от 0</p>
+                    <span class="line"></span>
+                    <p>до 3000</p>
                 </div>
-                <div class="class">
-                    <p>Стоимость в сутки</p>
-                    <div class="container">
-                        <p></p>
+                <button type="button" class="show-button">Показать</button>
+            </div>
+        </form>
+
+        <div class="inormation-search">
+            <h2>Найдено: 3</h2>
+            <p class="">Сортировка</p>
+            <div class="sort-form">
+                <p class="">По цене</p>
+                <p class="">По типу</p>
+                <p class="">По рейтингу</p>
+            </div>
+        </div>
+
+        <section class="answer-form">
+            <div class="hotels">
+                <img src="img/amara.jpg" width="135px" height="90px" alt="amara resort & spa">
+                <div class="in">
+                    <a href="#" class="link-hotel">
+                        <h2>Amara resort & spa</h2>
+                    </a>
+                    <p>Гостиница от 4000 р.</p>
+                    <div class="buttons">
+                        <button type="button">Подробнее</button>
+                        <button type="button">Забронировать</button>
+                    </div>
+                    <div class="stars">
+                        <img src="svg/star .svg" width="18px" height="17px" alt="stars">
+                        <p>Рейтинг: 8,5</p>
                     </div>
                 </div>
-            </form>
-
+            </div>
+            <div class="hotels">
+                <img src="img/desert.jpg" width="135px" height="90px" alt="desert quail Inn">
+                <div class="in">
+                    <a href="#" class="link-hotel">
+                        <h2>Desert Quail Inn</h2>
+                    </a>
+                    <p>Гостиница от 3000 р.</p>
+                    <div class="buttons">
+                        <button type="button">Подробнее</button>
+                        <button type="button">Забронировать</button>
+                    </div>
+                    <div class="stars">
+                        <img src="svg/star .svg" width="18px" height="17px" alt="stars">
+                        <p>Рейтинг: 8,9</p>
+                    </div>
+                </div>
+                <div class="hotels">
+                    <img src="img/Villas.jpg" width="135px" height="90px" alt="Villas at Poco Diablo">
+                    <div class="in">
+                        <a href="#" class="link-hotel">
+                            <h2>Villas at Poco Diablo</h2>
+                        </a>
+                        <p>Гостиница от 2000 р.</p>
+                        <div class="buttons">
+                            <button type="button">Подробнее</button>
+                            <button type="button">Забронировать</button>
+                        </div>
+                        <div class="stars">
+                            <img src="svg/star .svg" width="18px" height="17px" alt="stars">
+                            <p>Рейтинг: 9,2</p>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
 </body>
