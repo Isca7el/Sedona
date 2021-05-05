@@ -223,36 +223,61 @@ h5 {
     margin-left: 310px;
     width: 568px;
     height: 86px;
-    border: 0;
     background-color: #766357;
+}
+
+.search-button:hover {
+    background-color: #604E43;
 }
 
 .form {
     display: none;
     position: relative;
     width: 458px;
-    height: 285px;
+    height: px;
     padding: 55px;
-    text-align: center;
     background-color: white;
+    justify-content: space-between;
     z-index: 1;
-    left: 310px;
+    bottom: 120px;
+    left: 345px;
+}
+
+input {
+    background-color: #f2f2f2;
+    border:none;
+    width: 346px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .form p {
     font-size: 14px;
     line-height: 26px;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
+.find-rorm {
+    position: relative;
+    z-index: 1;
+}
 .block {
     display: flex;
 }
 
 .find-buttom{
+    border: none;
     width: 458px;
     height: 58px;
     margin-top: 55px;
+    font-size: 21px;
+    line-height: 26px;
+    color: white;
+    text-transform: uppercase;
     background-color: #81b3d2;
 }
 
@@ -303,3 +328,8 @@ h5 {
     display: flex;
     margin-left: 370px;
 }
+
+.modal-show {
+    display: block;
+}
+

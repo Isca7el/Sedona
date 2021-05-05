@@ -109,29 +109,10 @@
         <div class="empty-container">
             <div class="interesting">
                 <h5>Заинтересовались?</h5>
-                <p class="interesting-text">Укажитепредполагаемые даты поездки<br>и мы покажем ваи лучшие предложения
+                <p class="interesting-text">Укажите предполагаемые даты поездки<br>и мы покажем ваи лучшие предложения
                     гостиниц в Седоне</p>
             </div>
             <button type="button" class="search-button">Поиск гостиницы в Седоне</button>
-            <section class="form">
-                <form action="#" metod="post" class="find-form">
-                    <p>
-                        <label for="name">Дата заезда</label>
-                        <input type="date" name="date" value="2017-04-24">
-                    </p>
-                    <p>
-                        <label for="date">Дата выезда</label>
-                        <input type="date" name="date" value="2017-04-07">
-                    </p>
-                    <div class="block">
-                        <p>Взрослые</p>
-                        <button type="button" class="minus"></button>
-                        <p>2</p>
-                        <button type="button" class="plus"></button>
-                    </div>
-                    <button type="button" class="find-buttom">Найти</button>
-                </form>
-            </section>
         </div>
         <div class="map-img">
             <img src="img/map.jpg" width="1200px" height="593" class="map">
@@ -200,7 +181,27 @@
                 </a>
             </div>
         </div>
+        <section class="form">
+            <form action="#" metod="post" class="find-form">
+                <p>
+                    <label for="name">Дата заезда:</label>
+                    <input type="date" name="date" value="2017-04-24">
+                </p>
+                <p>
+                    <label for="date">Дата выезда:</label>
+                    <input type="date" name="date" value="2017-04-07">
+                </p>
+                <div class="block">
+                    <p>Взрослые</p>
+                    <button type="button" class="minus"></button>
+                    <p>2</p>
+                    <button type="button" class="plus"></button>
+                </div>
+                <button type="button" class="find-buttom">Найти</button>
+            </form>
+        </section>
     </footer>
+    <script src="js/popup.js"></script>
 </body>
 
 </html>
