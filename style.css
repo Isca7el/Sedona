@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1200px;
+    height: 56px;
+    background-color: white;
+    position: absolute;
+}
+
+.left-navigation, .right-navigation {
+    display: flex;
+    padding-left: 0;
+    margin-right: 0;
+    align-items: center;
+    list-style: none;
+}
+
+.item-left-navigation, .item-right-navigation {
+    width: 234px;
+    text-align: center;
+    
+}
+
+.link-navigation:hover {
+    color: #81b3d2;
+}
+
+.link-navigation {
+    text-decoration: none;
+}
+
+.link-name {
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.phon-wrapper {
+    width: 1200px;
+    height: 773px;
+    margin-left: 35px;
+}
+.phon-wrapper-photo {
+    position: relative;
+    z-index: -1;
+}
+.phon-welcome {
+    position: relative;
+    z-index: 1;
+    bottom: 645px;
+    left: 408px;
+}
+
+.polygon-wraper {
+    position: relative;
+    z-index: 1;
+    bottom: 642px;
+}
+
+.info-wrapper {
+    width: 1200px;
+    height: 216px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    bottom: 669px;
+}
+
+.info-wrapper-main {
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.info-wrapper-discription {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.discription-wrapper {
+    margin-left: 35px;
+    width: 1200px;
+    height: 256px;
+    display: flex;
+}
+
+.discription {
+    width: 400px;
+    height: 256px;
+    background-color: #81b3d2;
+}
+
+h3 {
+    margin-top: 48px;
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.text-discription {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center; 
+    text-transform: uppercase; 
+    color: white;
+}
+
+.advantages-wrapper {
+    width: 1200px;
+    height: 330px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages {
+    text-align: center;
+}
+
+.advantages-icon {
+    padding-top: 61px;
+}
+
+h4 {
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.advantages-text {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.devil-bridge {
+    margin-left: 35px;
+    width: 1200px;
+    height: 256px;
+    display: flex;
+}
+
+.devil-bridge-description {
+    width: 400px;
+    text-align: center;
+    background-color: #81b3d2;
+}
+
+.advantages-others {
+    margin-left: 35px;
+    width: 1200px;
+    height: 256px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-items {
+    margin-top: 25px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.text-items {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.empty-container{
+    display: inline-block;
+    margin-left: 35px;
+    width: 1200px;
+    height: 290px;
+    background-color: white;
+}
+
+.interesting {
+    text-align: center;
+}
+
+h5 {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.interesting-text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.search-button {
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-left: 310px;
+    width: 568px;
+    height: 86px;
+    background-color: #766357;
+}
+
+.search-button:hover {
+    background-color: #604E43;
+}
+
+.map-img {
+    width: 1200px;
+    height: 593px;
+    margin-left: 35px;
+    position: absolute;
+}
+
+.main-footer {
+    width: 1200px;
+    height: 120px;
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    opacity: 0.8;
+    position: relative;
+    top: 473px;
+}
+
+.social-links {
+    display: flex;
+    margin-left: 170px;
+}
+
+.contacts {
+    margin-left: 100px;
+    margin-right: 78px;
+    text-transform: uppercase;
+}
+
+.social {
+    width: 48px;
+    height: 48px;
+    margin-left: 7px;
+    background-color: #81b3d2;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+
+.copyright {
+    display: flex;
+    margin-left: 370px;
+}
+
+.form {
+    display: none;
+    position: relative;
+    width: 458px;
+    height: px;
+    padding: 55px;
+    background-color: white;
+    justify-content: space-between;
+    z-index: 1;
+    bottom: 120px;
+    left: 345px;
+}
+
+input {
+    background-color: #f2f2f2;
+    border:none;
+    width: 346px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.find-rorm {
+    position: relative;
+    z-index: 1;
+}
+
+.find-buttom{
+    border: none;
+    width: 458px;
+    height: 58px;
+    margin-top: 55px;
+    font-size: 21px;
+    line-height: 26px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #81b3d2;
+}
+
+.block {
+    display: flex;
+    margin-top: 28px;
+    align-items: center;
+}
+
+.man, .child {
+    display: flex;
+}
+
+
+.buttons {
+    height: 38px;
+    width: 114px;
+    display: flex;
+    margin-top: 7px;
+    margin-left: 40px;
+    
+    background-color: #f2f2f2;
+}
+
+.buttons p{
+    margin: 0;
+    padding-left: 33px;
+    padding-top: 8px;
+}
+
+.child {
+    margin-left: 50px;
+}
+
+.minus {
+    margin-left: 5px;
+}
+
+.minus::before {
+    content: "";
+
+    position: absolute;
+    width: 12px;
+    height: 3px;
+    background-color: #a9a9a9;
+}
+
+.plus::before, 
+.plus::after {
+    content: "";
+
+    position: absolute;
+    right: 284px;
+    width: 12px;
+    height: 3px;
+    background-color: #a9a9a9;;
+}
+
+.plus::after {
+    transform: rotate(90deg);
+}
+
+.plus1::before, 
+.plus1::after {
+    content: "";
+
+    position: absolute;
+    right: 38px;
+    width: 12px;
+    height: 3px;
+    background-color: #a9a9a9;;
+}
+
+.plus1::after {
+    transform: rotate(90deg);
+}
+
+.minus:hover:after {
+    background: black;
+}
+
+.buttons button {
+    background-color: none;
+    border: none;
+}
+
+.modal-show {
+    display: block;
+}
