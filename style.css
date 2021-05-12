@@ -36,6 +36,14 @@ header {
     color: #81b3d2;
 }
 
+.link-navigation:active {
+    color: #B2B2B2;
+}
+
+.link-navigation:link {
+    color:#766357;
+}
+
 .link-navigation {
     text-decoration: none;
 }
@@ -230,6 +238,11 @@ h5 {
     background-color: #604E43;
 }
 
+.search-button:active {
+    color:#857871;
+    background-color: #503E33;
+}
+
 .map-img {
     width: 1200px;
     height: 593px;
@@ -272,10 +285,39 @@ h5 {
     margin-top: 15px;
 }
 
+.social:hover {
+    background-color: #669EC0;
+}
+
+.social:active {
+    background-color: #5496BD;
+    fill: #88B6D1; 
+}
 
 .copyright {
+    align-items: center;
     display: flex;
-    margin-left: 370px;
+    margin-left: 270px;
+}
+
+.copyright p {
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.copyright a {
+    width: 115px;
+    height: 41px;
+    margin-left: 5px;
+}
+
+.copyright svg:hover {
+    fill: #81b3d2;
+}
+
+.copyright svg:active {
+    fill: #BDBBBC
 }
 
 .form {
@@ -309,9 +351,13 @@ input {
     text-transform: uppercase;
 }
 
-.find-rorm {
+.find-form {
     position: relative;
     z-index: 1;
+}
+
+.dates {
+    width: 470px;
 }
 
 .find-buttom{
@@ -336,7 +382,6 @@ input {
     display: flex;
 }
 
-
 .buttons {
     height: 38px;
     width: 114px;
@@ -351,6 +396,23 @@ input {
     margin: 0;
     padding-left: 33px;
     padding-top: 8px;
+}
+
+label {
+    margin-right: 25px;
+}
+
+.form input:hover {
+    background-color:#EBEBEB;
+}
+
+.form input:focus {
+    background-color: white;
+    border-color: #E5E5E5;
+}
+
+.calendar {
+    background-image: url();
 }
 
 .child {
@@ -375,7 +437,7 @@ input {
     content: "";
 
     position: absolute;
-    right: 284px;
+    right: 244px;
     width: 12px;
     height: 3px;
     background-color: #a9a9a9;;
@@ -390,7 +452,7 @@ input {
     content: "";
 
     position: absolute;
-    right: 38px;
+    right: -1px;
     width: 12px;
     height: 3px;
     background-color: #a9a9a9;;
@@ -400,8 +462,41 @@ input {
     transform: rotate(90deg);
 }
 
-.minus:hover:after {
+.minus:hover:before {
     background: black;
+}
+
+.minus:active:before {
+    background: #81B3D2;
+}
+
+.plus:hover:before, 
+.plus:hover:after {
+    background: black;
+}
+
+.plus:active:before, 
+.plus:active:after {
+    background: #81B3D2;
+}
+
+.plus1:hover:before, 
+.plus1:hover:after {
+    background: black;
+}
+
+.plus1:active:before, 
+.plus1:active:after {
+    background: #81B3D2;
+}
+
+.find-buttom:hover {
+    background: #669EC0;
+}
+
+.find-buttom:active {
+    background: #5496BD;
+    color: #88B6D1;
 }
 
 .buttons button {

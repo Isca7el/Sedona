@@ -1,0 +1,291 @@
+body {
+    margin-left: 35px;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 40px;
+    width: 1200px;
+    height: 56px;
+    background-color: white;
+    position: absolute;
+}
+
+.left-navigation, .right-navigation {
+    display: flex;
+    padding-left: 0;
+    margin-right: 0;
+    align-items: center;
+    list-style: none;
+}
+
+.item-left-navigation, .item-right-navigation {
+    width: 234px;
+    text-align: center;
+    
+}
+
+.link-navigation:hover {
+    color: #81b3d2;
+}
+
+.linl-naviigation:active {
+    color: #CACACA;
+}
+.link-navigation {
+    text-decoration: none;
+}
+
+.link-name {
+    text-transform: lowercase; 
+    font-weight: bold;
+}
+
+.link-name {
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.find-form {
+    display: flex;
+    margin-left: 75px;
+    position: relative;
+    bottom: 400px;
+}
+
+.infrastructue-form {
+    display: inline-block;
+    
+}
+
+
+.background {
+    width: 1200px;
+    height: 562px;
+    position: relative;
+    Z-index: -1;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.infrastuture-checkbox {
+    position: relative;
+    padding-left: 40px;
+}
+
+.infrastuture-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    right: 65px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.infrastuture-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    left: 2px;
+
+    width: 14px;
+    height: 4px;
+
+    background-color: #ffffff;
+}
+
+.infrastuture-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 24px;
+    height: 4px;
+
+    background-color: #ffffff;
+
+}
+
+.infrastuture-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.infrastuture-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(135deg);
+}
+
+.infrastructue-form label {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home-form {
+    display: inline-block;
+    padding-left: 74px;
+}
+
+.visually-hidden + label{ 
+    display: inline-block;  
+}
+
+.visually-hidden {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.inormation-search {
+    display: flex;
+    align-items: center;
+}
+
+.inormation-search h3 {
+    font-size: 21px;
+    line-height: 26px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.inormation-search p {
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.sort-form {
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-weight: bold;
+    min-height: 90px;
+}
+
+.sort-form a {
+    text-decoration: none;
+}
+
+.sort-form p {
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+.hotels {
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #E5E5E5;
+    border-bottom: solid 1px #E5E5E5;
+    min-height: 152px;
+}
+
+.price {
+    display: flex;
+    padding-left: 74px;
+}
+
+.block {
+    width: 318px;
+    height: 36px;
+    border: 2px solid white;
+}
+
+.hotels img {
+    margin-right: 30px;
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+}
+
+.in p {
+    margin: 0;
+}
+
+.about, .brone {
+    color: white;
+    text-transform: uppercase;
+    min-height: 30px;
+}
+
+.about {
+    background-color: #81b3d2;;
+    border: none;
+   
+}
+
+.brone {
+    background-color: #766357;
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+    margin-left: 520px;
+}
+
+.group-stars {
+    display: flex;
+}
+
+.group-stars img {
+    margin: 0;
+}
+
+.infrastructure, .home {
+    display: flex;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.rate {
+    width: 110px;
+    height: 27px;
+    margin-top: 20px;
+    background-color: #E5E5E5;
+    align-items: center;
+    text-align: center;
+}
+
