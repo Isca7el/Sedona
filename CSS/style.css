@@ -285,10 +285,39 @@ h5 {
     margin-top: 15px;
 }
 
+.social:hover {
+    background-color: #669EC0;
+}
+
+.social:active {
+    background-color: #5496BD;
+    fill: #88B6D1; 
+}
 
 .copyright {
+    align-items: center;
     display: flex;
-    margin-left: 370px;
+    margin-left: 270px;
+}
+
+.copyright p {
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.copyright a {
+    width: 115px;
+    height: 41px;
+    margin-left: 5px;
+}
+
+.copyright svg:hover {
+    fill: #81b3d2;
+}
+
+.copyright svg:active {
+    fill: #BDBBBC
 }
 
 .form {
@@ -383,7 +412,7 @@ label {
 }
 
 .calendar {
-    background-image: url("svg");
+    background-image: url();
 }
 
 .child {
@@ -433,8 +462,41 @@ label {
     transform: rotate(90deg);
 }
 
-.minus::after:hover {
+.minus:hover:before {
     background: black;
+}
+
+.minus:active:before {
+    background: #81B3D2;
+}
+
+.plus:hover:before, 
+.plus:hover:after {
+    background: black;
+}
+
+.plus:active:before, 
+.plus:active:after {
+    background: #81B3D2;
+}
+
+.plus1:hover:before, 
+.plus1:hover:after {
+    background: black;
+}
+
+.plus1:active:before, 
+.plus1:active:after {
+    background: #81B3D2;
+}
+
+.find-buttom:hover {
+    background: #669EC0;
+}
+
+.find-buttom:active {
+    background: #5496BD;
+    color: #88B6D1;
 }
 
 .buttons button {

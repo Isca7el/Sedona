@@ -60,9 +60,14 @@ header {
 
 .find-form {
     display: flex;
-    margin-left: 75px;
+    margin-left: 0;
     position: relative;
     bottom: 400px;
+}
+
+.infrastructue-form {
+    display: inline-block;
+    padding-left: 75px;
 }
 
 
@@ -80,12 +85,328 @@ h2 {
     color: white;
 }
 
-.home-form {
-    display: inline-block;
-    padding-left: 74px;
+.find-form {
+    width: 1200px;
+    min-height: 220px;
 }
 
-.checkbox {   
+.find-form h2 {
+    padding-bottom: 10px;
+}
+
+.cont-checkbox {
+    padding-bottom: 20px;
+}
+
+.bassein-checkbox {
+    position: relative;
+    padding-left: 40px;
+}
+
+.bassein-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    right: 75px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.bassein-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    left: 2px;
+
+    width: 14px;
+    height: 4px;
+
+    background-color: #ffffff;
+}
+
+.bassein-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 24px;
+    height: 4px;
+
+    background-color: #ffffff;
+
+}
+
+.bassein-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.bassein-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(135deg);
+}
+
+.parking-checkbox {
+    position: relative;
+    padding-left: 40px;
+}
+
+.parking-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    right: 85px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.parking-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    left: 2px;
+
+    width: 14px;
+    height: 4px;
+
+    background-color: #ffffff;
+}
+
+.parking-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 24px;
+    height: 4px;
+
+    background-color: #ffffff;
+
+}
+
+.parking-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.parking-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(135deg);
+}
+
+.wi-checkbox {
+    position: relative;
+    padding-left: 40px;
+}
+
+.wi-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    right: 49px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.wi-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    left: 2px;
+
+    width: 14px;
+    height: 4px;
+
+    background-color: #ffffff;
+}
+
+.wi-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 24px;
+    height: 4px;
+
+    background-color: #ffffff;
+
+}
+
+.wi-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.wi-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(135deg);
+}
+
+.home-form {
+    padding-left: 115px;
+}
+
+.home-form {
+    display: inline-block;
+    padding-left: 115px;
+}
+
+.hotel-checkbox {
+    position: relative;
+    padding-left: 40px;
+}
+
+.hotel-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    right: 94px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.hotel-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    left: 2px;
+
+    width: 14px;
+    height: 4px;
+
+    background-color: #ffffff;
+}
+
+.hotel-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 24px;
+    height: 4px;
+
+    background-color: #ffffff;
+
+}
+
+.hotel-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.hotel-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(135deg);
+}
+
+.motel-checkbox {
+    position: relative;
+    padding-left: 40px;
+}
+
+.motel-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    right: 68px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.motel-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    left: 2px;
+
+    width: 14px;
+    height: 4px;
+
+    background-color: #ffffff;
+}
+
+.motel-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 24px;
+    height: 4px;
+
+    background-color: #ffffff;
+
+}
+
+.motel-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.motel-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(135deg);
+}
+
+.appartment-checkbox {
+    position: relative;
+    padding-left: 40px;
+}
+
+.appartment-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    right: 110px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.appartment-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    left: 2px;
+
+    width: 14px;
+    height: 4px;
+
+    background-color: #ffffff;
+}
+
+.appartment-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 24px;
+    height: 4px;
+
+    background-color: #ffffff;
+
+}
+
+.appartment-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.appartment-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(135deg);
+}
+
+.infrastructue-form label {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.home-form label {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 .visually-hidden {
@@ -93,6 +414,133 @@ h2 {
     z-index: -1;
     opacity: 0;
 }
+
+.price {
+    margin-left: 345px;
+    display: inline-block;
+}
+
+.price h2 {
+    padding-bottom: 0;
+}
+
+.container {
+    display: flex;
+    width: 317px;
+    height: 37px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    align-items: center;
+}
+
+.container p{
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container p:first-child {
+    padding-left: 55px;
+}
+
+.line {
+    width: 22px;
+    height: 2px;
+    background-color: #ffffff;
+    transform: rotate(90deg);
+    margin-left: 64px;
+}
+
+.container p:last-child {
+    padding-left: 40px;
+}
+
+.line-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.horizont-line {
+    width: 80%;
+    position: relative;
+    height: 3px;
+    background-color: #ffffff;
+    z-index:-1;
+}
+
+.grey-circle {
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 50%;
+    background: #887E7E;
+}
+
+.white-circle {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -11px;
+    left: 5-px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.indicator {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.horizont-line1 {
+    width: 20%;
+    height: 3px;
+    background-color: #887E7E;
+    z-index:-1;
+}
+
+.show-button {
+    width: 138px;
+    height: 36px;
+    margin-top: 32px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    background-image: none;
+    background: transparent;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .inormation-search {
     display: flex;
     align-items: center;
@@ -139,11 +587,6 @@ h2 {
     border-top: solid 1px #E5E5E5;
     border-bottom: solid 1px #E5E5E5;
     min-height: 152px;
-}
-
-.price {
-    display: flex;
-    padding-left: 74px;
 }
 
 .block {
